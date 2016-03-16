@@ -1,0 +1,36 @@
+
+-x64
+-PIC
+-jetcomponent=10.50
+-jetedition=Evaluation
+-vcode=5
+-sys=C
+-nosmart
+-zimer=0
+-stack=900000
+-LargeAddressAware
+-config=VMProperty:-Djet.gc.heaplimit:0 -Djet.stack.trace
+-config=ClassPath:bin
+-config=JETProfile:5
+-config=JETProfileName:1.7.0_55
+-config=RuntimeKind:DESKTOP
+-config=MainClass:MyServer
+-config=StandaloneResources:bin
+-config=VersionInfo:jet-1050-release (eval, en)
+-config=CompatibilityString:Java SE version: 1.7.0_55; JET update level: 0; CPU architecture: amd64
+-name=StartServer.exe
+StartServer_jetpdb\version.res
+
+-entry=ExeEntryPoint
+
+-LinkFileAsRData=LINK_SplashPicture:C:\jet10.5-eval-amd64\lib\x86\dummysplash.lib
+C:\jet10.5-eval-amd64\lib\x86\startup-exe-normal.zip
+-GenExceptionInfo=JR_SystemExceptionHandler
+-config=PackagingOptions:component_microversions=BC-0
+StartServer_jetpdb\obj.zip
+-Config=RTComponent:XKRN10505.dll
+C:\jet10.5-eval-amd64\lib\x86\startup-rtlink.zip
+C:\jet10.5-eval-amd64\lib\x86\import32.lib
+C:\jet10.5-eval-amd64\lib\x86\app.res
+-StrictLinkToDLL
+

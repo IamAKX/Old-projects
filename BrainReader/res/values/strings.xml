@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brain Reader</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_block_one">BlockOne</string>
+    <string name="title_activity_block_two">BlockTwo</string>
+    <string name="title_activity_block_three">BlockThree</string>
+    <string name="title_activity_block_four">BlockFour</string>
+    <string name="title_activity_block_five">BlockFive</string>
+    <string name="title_activity_block_six">BlockSix</string>
+    <string name="title_activity_res">Res</string>
+
+</resources>

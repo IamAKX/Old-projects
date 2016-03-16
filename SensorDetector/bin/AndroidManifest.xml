@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sensordetector"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:icon="@android:drawable/btn_radio"
+        android:label="Sensor Detector"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.sensordetector.IntentActivity"
+            android:label="@string/title_activity_intent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.sensordetector.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.sensordetector.AboutUs"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+    </application>
+
+</manifest>

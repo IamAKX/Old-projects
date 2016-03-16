@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/track_pad"
+         android:title="@string/trackpad"
+         android:visible="true"
+         android:enabled="true"
+        android:onClick="showTrackPad"
+         android:orderInCategory="100" 
+         android:menuCategory="container"></item>
+    <item android:id="@+id/about" 
+         android:orderInCategory="100"  
+        android:onClick="showAbout" 
+        android:title="About" 
+         android:enabled="true"
+        android:visible="true"
+          android:menuCategory="container"></item>
+ <item android:id="@+id/ctrl"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+         android:title="Control Panel"
+         android:onClick="showCTRL" 
+        
+         android:enabled="true"
+        android:visible="true"
+          android:menuCategory="container"
+         ></item>
+ 
+</menu>
